@@ -1,5 +1,5 @@
 {% set name = "pdr" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pdr-{{ version }}.tar.gz
-  sha256: 352fda47ee7bc13cac5057cdf209286cf75ca822e60d0431a07083835e9eeb72
+  sha256: dcdd253a1e094b0afe2c40a65baf395fb7b675eca31f9505d341c334b8132dc8
 
 build:
   noarch: python
