@@ -16,13 +16,14 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.9
+    - pip
   run:
     - astropy
+    - cytoolz
     - dustgoggles
-    - more-itertools
     - matplotlib-base
+    - more-itertools
     - multidict
     - numpy
     - pandas
@@ -34,6 +35,7 @@ requirements:
 
 test:
   imports:
+    - formats
     - pdr
   commands:
     - pip check
@@ -42,7 +44,7 @@ test:
 
 about:
   home: https://github.com/MillionConcepts/pdr
-  summary: A simple library to read all planetary data.
+  summary: Planetary Data Reader
   description: pdr, the Planetary Data Reader, is a tool which provides a single command -- read('/path/to/file') -- for ingesting all common planetary data types.
   license: BSD-3-Clause
   license_file: LICENSE
