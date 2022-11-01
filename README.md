@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdr-feedstock/blob/main/LICENSE.txt)
 
-Summary: A simple library to read all planetary data.
+Summary: Planetary Data Reader
 
 pdr, the Planetary Data Reader, is a tool which provides a single command -- read('/path/to/file') -- for ingesting all common planetary data types.
 
