@@ -35,7 +35,6 @@ requirements:
 
 test:
   imports:
-    - formats
     - pdr
   commands:
     - pip check
@@ -44,7 +43,7 @@ test:
 
 about:
   home: https://github.com/MillionConcepts/pdr
-  summary: Planetary Data Reader
+  summary: A simple library to read all planetary data.
   description: pdr, the Planetary Data Reader, is a tool which provides a single command -- read('/path/to/file') -- for ingesting all common planetary data types.
   license: BSD-3-Clause
   license_file: LICENSE
