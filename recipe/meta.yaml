@@ -1,5 +1,5 @@
 {% set name = "pdr" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pdr-{{ version }}.tar.gz
-  sha256: 891457b6f96fda7bc1f682c5beddab56126201f36905e263cff9b1bbc6e84939
+  sha256: 5f2110464145533de4bf60c5277b6eddf9af42ca6b8c1c3f8889897d53c6c142
 
 build:
   noarch: python
@@ -25,8 +25,8 @@ requirements:
     - matplotlib-base
     - more-itertools
     - multidict
-    - numpy
-    - pandas
+    - numpy <2.0.0
+    - pandas >=2.0.0
     - pds4_tools
     - pillow
     - pvl
