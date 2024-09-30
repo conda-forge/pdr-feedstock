@@ -1,5 +1,5 @@
 {% set name = "pdr" %}
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pdr-{{ version }}.tar.gz
-  sha256: 788ce23df8886c998d67e64335599a21a98500fbc62f02fe792fbd96bdb69ed0
+  sha256: 8c8622888b899804c9e24d8784bc9c8e1d8939a06969ed9d4c1cfdf4939e36e3
 
 build:
   noarch: python
@@ -22,7 +22,6 @@ requirements:
     - astropy
     - cytoolz
     - dustgoggles
-    - matplotlib-base
     - more-itertools
     - multidict
     - numpy
