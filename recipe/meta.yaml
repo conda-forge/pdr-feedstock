@@ -39,7 +39,7 @@ test:
     - pip check
   requires:
     - pip
-    - python {{ python min }}
+    - python {{ python_min }}
 
 about:
   home: https://github.com/MillionConcepts/pdr
